@@ -1,0 +1,94 @@
+.box-head .info-box-icon {
+    border-radius: .25rem;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 5px 40px;
+    font-size: 1.875rem;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+}
+.box-head .info-box-icon img{
+    width: 35px;
+}
+.info-box-text h5 {
+    font-size: 18px;
+}
+.info-box-content{
+    margin-top: 5px;
+}
+.widget-sm h5, .widget-mm h5 {
+    padding-top: 10px;
+    color: rgb(35, 107, 194);
+    font-size: 18px;
+    border-bottom: 1px solid #e6e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+.widget-mm ul > li {
+    padding: 5px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0px 15px;
+}
+.widget-sm ul > li, .widget-mm ul > li {
+    position: relative;
+}
+.heading-right {
+    float: right;
+}
+.heading-left {
+    float: left;
+}
+.vcc {
+    display: flow-root;
+}
+.listed img {
+    margin-bottom: 12px !important;
+}
+.no-padding{
+    padding: 0px !important;
+}
+.aksi {
+    z-index: 1;
+    padding: 5px;
+    position: absolute;
+    color: red;
+}
+.media {
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.media>ul>li>img {
+    margin-right: 2px;
+    position: relative;
+    z-index: -99px;
+    max-height: 100px;
+}
+.media>ul>li {
+    list-style: none;
+    display: inline-grid;
+}
+.profile-user-img{
+    height: 100px;
+}
+.listed img{
+    object-fit: cover;
+}
+.members {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.benefit-item img {
+    object-fit: cover;
+}
+.widget-assets ul > li {
+    list-style: none;
+    margin-bottom: 15px;
+}
